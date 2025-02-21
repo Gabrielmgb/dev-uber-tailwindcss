@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+    --background-image-uber: url('/src/img/bguber.png');
+    --background-image-city: url('/src/img/bg-city.png');
+}
