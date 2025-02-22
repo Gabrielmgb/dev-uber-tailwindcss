@@ -5,10 +5,10 @@
     --background-image-city: url('../img/bg-city.png');
 } */
 
-.bg-uber {
+.bg-custom-uber {
    background-image: url('../img/bguber.png');
 }
 
-.bg-city {
+.bg-custom-city {
     background-image: url('../img/bg-city.png');
  }

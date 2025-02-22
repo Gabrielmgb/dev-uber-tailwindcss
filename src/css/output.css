@@ -374,8 +374,6 @@
     --default-mono-font-variation-settings: var(
       --font-mono--font-variation-settings
     );
-    --background-image-uber: url('/src/img/bguber.png');
-    --background-image-city: url('/src/img/bg-city.png');
   }
 }
 @layer base {
@@ -1550,14 +1548,8 @@
     --tw-gradient-position: in oklab;
     background-image: radial-gradient(var(--tw-gradient-stops));
   }
-  .bg-city {
-    background-image: var(--background-image-city);
-  }
   .bg-none {
     background-image: none;
-  }
-  .bg-uber {
-    background-image: var(--background-image-uber);
   }
   .via-none {
     --tw-gradient-via-stops: initial;
@@ -2526,6 +2518,12 @@
       line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
+}
+.bg-custom-uber {
+  background-image: url('../img/bguber.png');
+}
+.bg-custom-city {
+  background-image: url('../img/bg-city.png');
 }
 @keyframes spin {
   to {
